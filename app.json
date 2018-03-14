@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/money/money",
+    "pages/ious/ious",
+    "pages/raise/raise"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80"
+  },
+  "tabBar": {
+    "color": "#656565",
+    "selectedColor": "#f00",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/home-n.png",
+        "selectedIconPath": "images/home-s.png"
+      },
+      {
+        "pagePath": "pages/money/money",
+        "text": "理财",
+        "iconPath": "images/money-n.png",
+        "selectedIconPath": "images/money-s.png"
+      },
+      {
+        "pagePath": "pages/ious/ious",
+        "text": "白条",
+        "iconPath": "images/ious-n.png",
+        "selectedIconPath": "images/ious-s.png"
+      },
+      {
+        "pagePath": "pages/raise/raise",
+        "text": "众筹",
+        "iconPath": "images/raise-n.png",
+        "selectedIconPath": "images/raise-n.png"
+      }
+    ]
+  }
+}
