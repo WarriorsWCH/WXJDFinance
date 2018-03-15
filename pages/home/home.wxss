@@ -1,1 +1,2 @@
 @import "../common/slider/slider.wxss";
+@import "../common/footer/footer.wxss";

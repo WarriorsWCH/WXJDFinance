@@ -1,4 +1,6 @@
 <import src="../common/slider/slider.wxml" />
+<import src="../common/footer/footer.wxml" />
 <view>
   <template is="slider" data="{{...swipers}}"></template>
+  <template is="footer"></template>
 </view>
