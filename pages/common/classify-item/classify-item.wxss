@@ -1,0 +1,38 @@
+.classify-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.classify-content li{
+height: 80px;
+}
+.classify-content .item4 {
+  width: 25%;
+}
+
+.classify-content .item5 {
+  width: 20%;
+}
+
+.classify-content li image {
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  display: block;
+}
+
+.classify-content li p {
+  font-size: 13px;
+  text-align: center;
+  display: block;
+  color: #666;
+  margin-top: 6px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.classify-content li p.red {
+  color: red;
+}

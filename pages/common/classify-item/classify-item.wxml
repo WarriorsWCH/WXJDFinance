@@ -1,0 +1,10 @@
+<template name="classify">
+  <ul class="classify-content">
+    <block wx:for="{{items}}" wx:key="index">
+      <li class="item{{num}}">
+        <image src="{{item.imgUrl}}" />
+        <p class="{{item.color}}">{{item.title}}</p>
+      </li>
+    </block>
+  </ul>
+</template>
