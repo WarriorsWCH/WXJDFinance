@@ -1,0 +1,11 @@
+<template name="best">
+  <section class="best-content">
+    <dl class="item" wx:for="{{items}}" wx:key="index">
+      <dt>{{ item.title }}
+        <span>{{ item.sub }}</span>
+      </dt>
+      <dd>{{ item.rate }}</dd>
+      <dd>{{ item.text }}</dd>
+    </dl>
+  </section>
+</template>

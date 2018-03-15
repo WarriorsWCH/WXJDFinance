@@ -1,6 +1,7 @@
 @import "../common/slider/slider.wxss";
 @import "../common/footer/footer.wxss";
 @import "../common/classify-item/classify-item.wxss";
+@import "../common/money-best/money-best.wxss";
 
 .com-title {
   width: 100%;

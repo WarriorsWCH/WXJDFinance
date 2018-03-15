@@ -1,10 +1,12 @@
 <import src="../common/slider/slider.wxml" />
 <import src="../common/footer/footer.wxml" />
 <import src="../common/classify-item/classify-item.wxml" />
+<import src="../common/money-best/money-best.wxml" />
 <view>
   <template is="slider" data="{{...swipers}}"></template>
   <template is="classify" data="{{...topItems}}"></template>
   <div class="com-title">- 理财精选 -</div>
+  <template is="best" data="{{...bestItems}}"></template>
   <template is="classify" data="{{...bottomItems}}"></template>
   <template is="footer"></template>
 </view>
