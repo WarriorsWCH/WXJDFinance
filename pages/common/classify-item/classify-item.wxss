@@ -3,6 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding-top: 20px;
+  background-color: #fff;
 }
 .classify-content li{
 height: 80px;

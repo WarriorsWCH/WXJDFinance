@@ -6,7 +6,7 @@
     "pages/raise/raise"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#405f80"
+    "navigationBarBackgroundColor": "#f00"
   },
   "tabBar": {
     "color": "#656565",
