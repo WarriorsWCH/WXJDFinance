@@ -59,7 +59,35 @@
   text-overflow: ellipsis;
   overflow: hidden;
 }
-
+.best-content .item p.title .sub {
+    height: 17px;
+    line-height: 17px;
+    font-size: 11px;
+    padding: 0 4px;
+    color: #FF5155;
+    position: relative;
+    top: -2px;
+    left: 4px;
+    text-align: center;
+}
+.best-content .item p.title .sub:before{
+    min-width: 52px;
+    line-height: 17px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    display: block;
+    -webkit-transform: scale(.5,.5);
+    -ms-transform: scale(.5,.5);
+    transform: scale(.5,.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    box-sizing: border-box;
+    border: 1px solid #FF5155;
+}
 .best-content .item p.value {
   font-weight: 700;
   font-size: 22px;

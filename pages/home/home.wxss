@@ -13,3 +13,37 @@
   line-height: 56px;
   background-color: #fff;
 }
+
+.scroll_box {
+  width: 100%;
+  height: 177px;
+  overflow: hidden;
+  background: #fff;
+  white-space: nowrap;
+}
+
+.scroll-view_H {
+  height: 157px;
+}
+
+.view-item{
+  width: 125px;
+  height: 100%;
+  display: inline-block;
+}
+.view-item+.view-item {
+  margin-left: 12px;
+}
+.view-item:first-child{
+  margin-left: 16px;
+}
+.view-item:last-child{
+  margin-right: 16px;
+}
+.adv{
+  height: 85px;
+  margin-bottom: 10px;
+}
+.adv image{
+  height: 100%;
+}

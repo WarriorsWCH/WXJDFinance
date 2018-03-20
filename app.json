@@ -30,12 +30,6 @@
         "text": "白条",
         "iconPath": "images/ious-n.png",
         "selectedIconPath": "images/ious-s.png"
-      },
-      {
-        "pagePath": "pages/raise/raise",
-        "text": "众筹",
-        "iconPath": "images/raise-n.png",
-        "selectedIconPath": "images/raise-n.png"
       }
     ]
   }

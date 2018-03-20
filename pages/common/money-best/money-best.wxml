@@ -3,7 +3,7 @@
     <div class="item" wx:for="{{items}}" wx:key="index">
       <p class="title">
         <span>{{ item.title }}</span>
-        <span>{{ item.sub }}</span>
+        <span class="sub">{{ item.sub }}</span>
       </p>
       <p class="value">{{ item.rate }}</p>
       <p class="desc">{{ item.text }}</p>

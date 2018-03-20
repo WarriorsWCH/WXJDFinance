@@ -7,6 +7,27 @@
   <template is="classify" data="{{...topItems}}"></template>
   <div class="com-title">- 理财精选 -</div>
   <template is="best" data="{{...bestItems}}"></template>
+  <div class="com-title">-众筹新品-</div>
+  <view class="scroll_box">
+    <scroll-view class="scroll-view_H" scroll-x>
+      <block wx:for="{{hswipers1}}" wx:key="index">
+        <view class='view-item'>
+          <image src="{{item}}" class="slide-image" />
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+  <div class="com-title">-保险保障-</div>
+  <view class="scroll_box">
+    <scroll-view class="scroll-view_H" scroll-x>
+      <block wx:for="{{hswipers2}}" wx:key="index">
+        <view class='view-item'>
+          <image src="{{item}}" class="slide-image" />
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+  <view class='adv'><image src='https://img12.360buyimg.com/jrpmobile/jfs/t15583/348/2209539372/42536/6bae28a8/5a953b19Nd7e46726.jpg?width=750&height=200' /></view>
   <template is="classify" data="{{...bottomItems}}"></template>
   <template is="footer"></template>
 </view>
